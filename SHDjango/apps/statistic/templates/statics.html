@@ -1,0 +1,48 @@
+{% extends "mbase.html" %}
+
+{% load staticfiles %}
+{% block content %}
+
+<div id="page-wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="page-header">柱状图形</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div id="container"></div>
+
+                <script>
+                       $(function () {
+                           var  valx= [{{datax | safe}}]
+                           var  valy= [{{datay | safe}}]
+                           var chart = Highcharts.chart('container', {
+                                title: {
+                                    text: '美文类别'
+                                },
+                                subtitle: {
+                                    text: '各类美文数量'
+                                },
+                                xAxis: valx,
+                                series:valy
+                        });
+                    });
+                </script>
+
+            </div>
+        </div>
+
+
+</div>
+
+{% endblock %}
+
+{% block js %}
+
+<script src="{% static 'hchart/highcharts.js' %}"></script>
+<script src="{% static 'hchart/modules/exporting.js' %}"></script>
+
+{% endblock %}

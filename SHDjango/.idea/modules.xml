@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/SHDjangoLesson/.idea/SHDjangoLesson.iml" filepath="$USER_HOME$/Desktop/SHDjangoLesson/.idea/SHDjangoLesson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SHDjangolesson.iml" filepath="$PROJECT_DIR$/.idea/SHDjangolesson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../p1/.idea/p1.iml" filepath="$PROJECT_DIR$/../p1/.idea/p1.iml" />
+    </modules>
+  </component>
+</project>

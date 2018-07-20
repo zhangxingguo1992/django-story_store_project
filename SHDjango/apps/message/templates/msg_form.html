@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block css %}
+    <link rel="stylesheet" href="/static/css/style.css">
+{% endblock %}
+
+{% block content %}
+<!--内容-->
+<div class="container" style="margin-top:76px">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;留言板</h3>
+                </div>
+                <div class="panel-body">
+
+                    <form action="{% url 'go_form' %}" method="post" class="smart-green">
+
+                        <h1>留言信息
+                            <span>请留下你的信息.</span>
+                        </h1>
+                        <label>
+                            <span>姓名 :</span>
+                            <input id="name" type="text" name="name" class="error" placeholder="请输入您的姓名" required/>
+                            <div class="error-msg"></div>
+                        </label>
+
+                        <label>
+                            <span>邮箱 :</span>
+                            <input id="email" type="email" value="" name="email" placeholder="请输入邮箱地址" required/>
+                            <div class="error-msg"></div>
+                        </label>
+
+                        <label>
+                            <span>联系地址 :</span>
+                            <input id="address" type="text" value="" name="address" placeholder="请输入联系地址"/>
+                            <div class="error-msg"></div>
+                        </label>
+
+                        <label>
+                            <span>留言 :</span>
+                            <textarea id="message" name="message"  placeholder="请输入你的建议" required></textarea>
+                            <div class="error-msg"></div>
+                        </label>
+                        <div class="success-msg"></div>
+                        <label>
+                            <span>&nbsp;</span>
+                            <input type="submit" class="button" value="提交"/>
+                        </label>
+                        {% csrf_token %}
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--内容-->
+{% endblock %}

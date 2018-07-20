@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6831a313-4a13-439e-9f70-fafb878949f5" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SHDjangolesson$tests.coverage" NAME="tests Coverage Results" MODIFIED="1525954353914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/app01" />
+    <SUITE FILE_PATH="coverage/SHDjangolesson$detail_handler.coverage" NAME="detail_handler Coverage Results" MODIFIED="1525954243898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/app01" />
+    <SUITE FILE_PATH="coverage/SHDjango$tests.coverage" NAME="tests Coverage Results" MODIFIED="1531187151935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/app01" />
+    <SUITE FILE_PATH="coverage/SHDjango$check_code.coverage" NAME="check_code Coverage Results" MODIFIED="1531322171079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SHDjangolesson" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="python1802@10.11.58.84" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="python1802@10.11.58.84" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="python1802@10.11.58.84" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="python1802: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index_handler.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/app01/index_handler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>art</find>
+      <find>pagerange</find>
+      <find>11px</find>
+      <find>25px</find>
+      <find>30</find>
+      <find>glyphicon</find>
+      <find>js</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/extra_apps/Xadmin1.11.x" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/apps/statistic/templates/statics/index.html" />
+        <option value="$PROJECT_DIR$/apps/statistic/templates/statics/mbase.html" />
+        <option value="$PROJECT_DIR$/apps/statistic/templates/index.html" />
+        <option value="$PROJECT_DIR$/apps/statistic/views.py" />
+        <option value="$USER_HOME$/Desktop/SHDjangoLesson/apps/statistic/urls.py" />
+        <option value="$PROJECT_DIR$/apps/statistic/templates/statistic_piehandler.py" />
+        <option value="$PROJECT_DIR$/apps/statistic/statistic_piehandler.py" />
+        <option value="$PROJECT_DIR$/apps/statistic/templates/mbase.html" />
+        <option value="$PROJECT_DIR$/apps/statistic/templates/pie.html" />
+        <option value="$PROJECT_DIR$/apps/statistic/ca_user.py" />
+        <option value="$PROJECT_DIR$/apps/statistic/urls.py" />
+        <option value="$PROJECT_DIR$/apps/message/views.py" />
+        <option value="$PROJECT_DIR$/apps/message/urls.py" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/plugins/ueditor.py" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/extra_apps/DjangoUeditor3/DjangoUeditor/views.py" />
+        <option value="$PROJECT_DIR$/apps/app01/tasks/tasks.py" />
+        <option value="$PROJECT_DIR$/apps/statistic/templates/statics.html" />
+        <option value="$PROJECT_DIR$/apps/statistic/static/hchart/highcharts.js" />
+        <option value="$PROJECT_DIR$/apps/statistic/statistic_handler.py" />
+        <option value="$PROJECT_DIR$/SHDjangolesson/a.py" />
+        <option value="$PROJECT_DIR$/SHDjangolesson/celery.py" />
+        <option value="$PROJECT_DIR$/apps/app01/app_tasks/tasks.py" />
+        <option value="$PROJECT_DIR$/apps/app01/templates/home/index.html" />
+        <option value="$PROJECT_DIR$/apps/app01/tests.py" />
+        <option value="$PROJECT_DIR$/apps/app01/admin.py" />
+        <option value="$PROJECT_DIR$/apps/comments/models.py" />
+        <option value="$PROJECT_DIR$/apps/comments/urls.py" />
+        <option value="$PROJECT_DIR$/apps/comments/forms.py" />
+        <option value="$PROJECT_DIR$/apps/comments/views.py" />
+        <option value="$PROJECT_DIR$/apps/app01/templates/home/capter_handler.html" />
+        <option value="$PROJECT_DIR$/apps/app01/templates/home/detail.html" />
+        <option value="$PROJECT_DIR$/apps/app01/forms.py" />
+        <option value="$PROJECT_DIR$/apps/app01/detail_handler.py" />
+        <option value="$PROJECT_DIR$/SHDjangolesson/check_code.py" />
+        <option value="$PROJECT_DIR$/apps/app01/user_manage.py" />
+        <option value="$PROJECT_DIR$/apps/app01/templates/home/login_handler.html" />
+        <option value="$PROJECT_DIR$/apps/app01/views.py" />
+        <option value="$PROJECT_DIR$/apps/app01/templates/home/register_handler.html" />
+        <option value="$PROJECT_DIR$/SHDjangolesson/note_check.py" />
+        <option value="$PROJECT_DIR$/apps/app01/templates/home/view_cart.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/apps/app01/models.py" />
+        <option value="$PROJECT_DIR$/apps/app01/cart_handler.py" />
+        <option value="$PROJECT_DIR$/apps/app01/urls.py" />
+        <option value="$PROJECT_DIR$/SHDjangolesson/urls.py" />
+        <option value="$PROJECT_DIR$/apps/app01/templates/home/product_order.html" />
+        <option value="$PROJECT_DIR$/SHDjangolesson/utils.py" />
+        <option value="$PROJECT_DIR$/SHDjangolesson/settings.py" />
+        <option value="$PROJECT_DIR$/apps/app01/index_handler.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="width" value="1177" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Django</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyInterpreterInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="2b964f5d-755b-4786-8c5d-f39dae20ee2b" type="61db50fb:ScratchProjectViewPane$MyPsiNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SHDjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SHDjango" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SHDjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SHDjango" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SHDjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SHDjango" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="app01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SHDjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SHDjango" type="462c0819:PsiDirectoryNode" />
+              <item name="SHDjangolesson" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../orm" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="SearchEverywhereHistoryKey" value="message&#9;null&#9;null&#10;aprice&#9;null&#9;null&#10;comments&#9;null&#9;null&#10;Usermessage&#9;null&#9;null&#10;check_user_login&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\5、Django\SHDjango\apps\app01\templates\home" />
+      <recent name="E:\5、Django\SHDjango\apps\comments" />
+      <recent name="E:\5Django\SHDjangolesson\apps\app01\tasks" />
+      <recent name="E:\5Django\SHDjangolesson\static" />
+      <recent name="E:\5Django\SHDjangolesson\apps\message" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\5、Django\SHDjango\apps" />
+      <recent name="E:\5Django\SHDjangolesson\static\arts_ups\ueditor" />
+      <recent name="E:\5Django\SHDjangolesson\apps\app01\static" />
+      <recent name="E:\5Django\SHDjangolesson\apps\statistic\static" />
+      <recent name="E:\5Django\SHDjangolesson\apps\statistic\statics" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.check_code">
+    <configuration name="check_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SHDjangolesson" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SHDjangolesson" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SHDjangolesson/check_code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="detail_handler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/app01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SHDjangolesson" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/app01/detail_handler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/app01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SHDjangolesson" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/app01/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="SHDjangolesson" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="SHDjangolesson.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SHDjangolesson" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Django server.SHDjangolesson" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tests" />
+      <item index="2" class="java.lang.String" itemvalue="Python.detail_handler" />
+      <item index="3" class="java.lang.String" itemvalue="Python.check_code" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.check_code" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tests" />
+        <item index="2" class="java.lang.String" itemvalue="Python.detail_handler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6831a313-4a13-439e-9f70-fafb878949f5" name="Default" comment="" />
+      <created>1525424824100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525424824100</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29558325" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20498301" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2785957" sideWeight="0.49570817" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13251074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14699571" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983795" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17588395" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2b964f5d-755b-4786-8c5d-f39dae20ee2b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d15829de/2b964f5d-755b-4786-8c5d-f39dae20ee2b/python1802.tag">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/message/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/message/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/comments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d15829de/2b964f5d-755b-4786-8c5d-f39dae20ee2b/python1802.art">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/message/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/message/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/statistic/static/ui/demo-mobile/dialog/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/statistic/static/ui/themes/black/messager.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/statistic/static/ui/demo/form/load.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d15829de/2b964f5d-755b-4786-8c5d-f39dae20ee2b/python1802.user_message">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/comments/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="969" column="7" lean-forward="true" selection-start-line="969" selection-start-column="7" selection-end-line="969" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/2b964f5d-755b-4786-8c5d-f39dae20ee2b.SCHEMA:python1802">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>2b964f5d-755b-4786-8c5d-f39dae20ee2b.SCHEMA:python1802</OriginalElement>
+          <nodes>
+            <node x="2046.1924603174602" y="78.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.tag</node>
+            <node x="259.0" y="439.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.xadmin_log</node>
+            <node x="2270.375" y="478.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.product_order</node>
+            <node x="542.0" y="1076.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.django_session</node>
+            <node x="780.9999999999999" y="452.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.django_admin_log</node>
+            <node x="287.0" y="1076.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.django_migrations</node>
+            <node x="549.3323412698413" y="851.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_user_user_permissions</node>
+            <node x="1529.625" y="851.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_user_groups</node>
+            <node x="1406.125" y="530.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_group</node>
+            <node x="1288.625" y="851.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_group_permissions</node>
+            <node x="1694.2073412698414" y="491.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.xadmin_userwidget</node>
+            <node x="2335.9007936507937" y="786.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.line_item</node>
+            <node x="523.9999999999999" y="465.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.xadmin_bookmark</node>
+            <node x="1099.0" y="504.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.xadmin_usersettings</node>
+            <node x="1994.625" y="799.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.comments</node>
+            <node x="336.25" y="104.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.django_content_type</node>
+            <node x="0.0" y="1076.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.user_message</node>
+            <node x="1976.6924603174602" y="413.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.art</node>
+            <node x="2526.375" y="478.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.arts_user</node>
+            <node x="1126.75" y="0.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_user</node>
+            <node x="1732.625" y="822.3899990618257">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.art_chapter</node>
+            <node x="0.0" y="504.0">2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_permission</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.xadmin_log" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.django_content_type">
+              <point x="-61.25" y="-135.5" />
+              <point x="320.25" y="393.0" />
+              <point x="422.875" y="393.0" />
+              <point x="-28.875" y="57.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.art_chapter" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.art">
+              <point x="0.0" y="-83.5" />
+              <point x="1853.625" y="766.0" />
+              <point x="2019.6924603174602" y="766.0" />
+              <point x="-86.0" y="161.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_user_groups" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_group">
+              <point x="-45.75" y="-57.5" />
+              <point x="1575.375" y="766.0" />
+              <point x="1550.875" y="766.0" />
+              <point x="48.25" y="44.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.django_admin_log" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.django_content_type">
+              <point x="-74.5" y="-122.5" />
+              <point x="855.4999999999999" y="343.0" />
+              <point x="538.375" y="343.0" />
+              <point x="86.625" y="57.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.django_admin_log" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_user">
+              <point x="74.5" y="-122.5" />
+              <point x="1004.4999999999999" y="383.0" />
+              <point x="1202.6875" y="383.0" />
+              <point x="-45.5625" y="161.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.xadmin_bookmark" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.django_content_type">
+              <point x="-59.25" y="-109.5" />
+              <point x="583.2499999999999" y="353.0" />
+              <point x="480.625" y="353.0" />
+              <point x="28.875" y="57.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_user_user_permissions" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_user">
+              <point x="61.25" y="-57.5" />
+              <point x="733.0823412698413" y="766.0" />
+              <point x="1301.5" y="766.0" />
+              <point x="1301.5" y="393.0" />
+              <point x="1263.4375" y="393.0" />
+              <point x="15.1875" y="161.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.xadmin_bookmark" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_user">
+              <point x="59.25" y="-109.5" />
+              <point x="701.7499999999999" y="373.0" />
+              <point x="1172.3125" y="373.0" />
+              <point x="-75.9375" y="161.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.xadmin_usersettings" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_user">
+              <point x="0.0" y="-70.5" />
+              <point x="1195.0" y="393.0" />
+              <point x="1233.0625" y="393.0" />
+              <point x="-15.1875" y="161.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_permission" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.django_content_type">
+              <point x="0.0" y="-70.5" />
+              <point x="119.5" y="383.0" />
+              <point x="365.125" y="383.0" />
+              <point x="-86.625" y="57.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.line_item" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.product_order">
+              <point x="0.0" y="-122.5" />
+              <point x="2458.4007936507937" y="766.0" />
+              <point x="2388.375" y="766.0" />
+              <point x="0.0" y="96.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.line_item" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.arts_user">
+              <point x="81.66666666666663" y="-122.5" />
+              <point x="2540.0674603174602" y="766.0" />
+              <point x="2643.875" y="766.0" />
+              <point x="0.0" y="96.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.xadmin_userwidget" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_user">
+              <point x="0.0" y="-83.5" />
+              <point x="1815.7073412698414" y="373.0" />
+              <point x="1324.1875" y="373.0" />
+              <point x="75.9375" y="161.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.line_item" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.art">
+              <point x="-81.66666666666663" y="-122.5" />
+              <point x="2376.734126984127" y="766.0" />
+              <point x="2191.6924603174602" y="766.0" />
+              <point x="86.0" y="161.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_group_permissions" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_permission">
+              <point x="-55.25" y="-57.5" />
+              <point x="1343.875" y="756.0" />
+              <point x="179.25" y="756.0" />
+              <point x="59.75" y="70.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_group_permissions" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_group">
+              <point x="55.25" y="-57.5" />
+              <point x="-48.25" y="44.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.comments" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.art">
+              <point x="0.0" y="-109.5" />
+              <point x="2120.625" y="766.0" />
+              <point x="2105.6924603174602" y="766.0" />
+              <point x="0.0" y="161.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_user_user_permissions" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_permission">
+              <point x="-61.25" y="-57.5" />
+              <point x="610.5823412698413" y="766.0" />
+              <point x="59.75" y="766.0" />
+              <point x="-59.75" y="70.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.art" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.tag">
+              <point x="64.5" y="-161.5" />
+              <point x="0.0" y="83.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.xadmin_log" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_user">
+              <point x="61.25" y="-135.5" />
+              <point x="442.75" y="363.0" />
+              <point x="1141.9375" y="363.0" />
+              <point x="-106.3125" y="161.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_user_groups" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_user">
+              <point x="45.75" y="-57.5" />
+              <point x="1666.875" y="383.0" />
+              <point x="1293.8125" y="383.0" />
+              <point x="45.5625" y="161.5" />
+            </edge>
+            <edge source="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.art" target="2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_user">
+              <point x="-64.5" y="-161.5" />
+              <point x="2041.1924603174602" y="363.0" />
+              <point x="1354.5625" y="363.0" />
+              <point x="106.3125" y="161.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7662832494608196" x="1409.0" y="731.0" />
+          <SelectedNodes>
+            <node>2b964f5d-755b-4786-8c5d-f39dae20ee2b.TABLE:python1802.auth_permission</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/comments/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/comments/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/comments/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/base/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="599" column="9" lean-forward="true" selection-start-line="599" selection-start-column="9" selection-end-line="599" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHDjangolesson/note_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d15829de/2b964f5d-755b-4786-8c5d-f39dae20ee2b/python1802.art_chapter">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d15829de/2b964f5d-755b-4786-8c5d-f39dae20ee2b/python1802.arts_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/templates/home/capter_handler.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHDjangolesson/check_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="85" column="18" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/templates/home/view_cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/templates/home/login_handler.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/templates/home/register_handler.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2838">
+          <caret line="129" column="25" lean-forward="false" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/templates/home/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="76" column="10" lean-forward="false" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/search_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHDjangolesson/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="31" column="55" lean-forward="false" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d15829de/2b964f5d-755b-4786-8c5d-f39dae20ee2b/python1802.product_order">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d15829de/2b964f5d-755b-4786-8c5d-f39dae20ee2b/python1802.order_item_relation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d15829de/2b964f5d-755b-4786-8c5d-f39dae20ee2b/python1802.line_item">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/templates/home/product_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="71" column="18" lean-forward="false" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHDjangolesson/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="53" column="53" lean-forward="true" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHDjangolesson/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2398">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding>
+            <element signature="e#316#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="3" lean-forward="false" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="78" column="8" lean-forward="false" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/detail_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/user_manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1276">
+          <caret line="63" column="64" lean-forward="false" selection-start-line="63" selection-start-column="64" selection-end-line="63" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/cart_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/1、python基础阶段/day05列表元祖字典函数/day05列表元祖字典函数/code/03dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/index_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

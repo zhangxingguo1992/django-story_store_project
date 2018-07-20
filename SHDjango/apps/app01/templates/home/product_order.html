@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!--内容-->
+<div class="container" style="margin-top:76px">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><span class="glyphicon glyphicon-list-alt"></span>{{user.username}}的订单</h3>
+                </div>
+                <div class="panel-body">
+                <form action="{% url 'product_order' %}" method="post", class="smart-green">
+                    <div class="col-md-8">
+                        <h3>订单配送信息</h3>
+                        {{ form.as_p }}
+                        {% if messages %}
+                            <ul>
+                            {% for msg in messages %}
+                            <li style="color: red">{{ msg.message }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                    <hr>
+
+
+                    <div class="col-md-9">
+                        <h3>订单的购物车信息</h3>
+                    <table class="table" style="border: 1px;">
+                        <thead>
+                        <tr>
+                            <th class="yellow header">名称</th>
+                            <th class="header">数量</th>
+                            <th class="blue header">单价</th>
+                            <th class="green header">小计</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for item in product_list %}
+                        <tr>
+                            <td>{{item.product.a_title}}</td>
+                             <th>{{item.quantity}}</th>
+                            <td>{{item.unit_price}}</td>
+                            <td>{% widthratio item.quantity 1 item.unit_price %}</td>
+
+                        </tr>
+                        {% endfor %}
+                        <tr style="color: green">
+                            <th></th>
+                            <td></td>
+                            <th>总计：</th>
+                            <th>{{total_price}}</th>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="col-md-3">
+{#                            <a class="btn  btn-success" href="#">确认订单</a>#}
+                            <input type="submit" class="button btn btn-success" value="提交订单">
+                        </div>
+                        <div class="col-md-3">
+                        <a class="btn  btn-danger"  type="button" href="/app/index">继续购物</a>
+                        </div>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
