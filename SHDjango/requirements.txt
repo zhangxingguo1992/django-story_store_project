@@ -37,7 +37,7 @@ SQLAlchemy==1.2.9
 tablib==0.12.1
 tornado==5.0.2
 unicodecsv==0.14.1
-urllib3==1.23
+urllib3==1.26.5
 view==0.1
 vine==1.1.4
 xlrd==1.1.0
